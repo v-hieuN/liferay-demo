@@ -1,0 +1,10 @@
+Bundle-Name: Contact-api
+Bundle-SymbolicName: com.nms.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.nms.exception,\
+	com.nms.model,\
+	com.nms.service,\
+	com.nms.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../Contact-service/service.xml
